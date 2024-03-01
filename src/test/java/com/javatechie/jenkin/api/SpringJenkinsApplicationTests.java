@@ -20,6 +20,8 @@ public class SpringJenkinsApplicationTests {
 		logger.info("Test case executing...");
 		logger.info("Test case executing developer commit...");
 		logger.info("New developer commit");
+		logger.info("New developmer commit that kicks in jenkins job ");
+
 		assertEquals(true, true);
 	}
 
