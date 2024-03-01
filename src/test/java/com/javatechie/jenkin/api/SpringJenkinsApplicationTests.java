@@ -19,6 +19,7 @@ public class SpringJenkinsApplicationTests {
 	public void contextLoads() {
 		logger.info("Test case executing...");
 		logger.info("Test case executing developer commit...");
+		logger.info("New developer commit");
 		assertEquals(true, true);
 	}
 
